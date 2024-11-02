@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidebar {
+  @apply bg-neutral-900 text-slate-400;
+}
+.profile {
+  background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
